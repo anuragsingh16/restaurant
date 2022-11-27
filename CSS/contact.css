@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 10vh;
+    /* background: url(../Images/hero.jpg); */
+    /* background-color: #ffce1e;   */
+    background-color: rgba(0, 0, 0,0.5);  
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0 1%;
+    
+    }
+.main ul{
+    list-style: none;
+    display: flex;
+
+    }
+.main ul{
+    padding:10px 30px;
+        
+    }
+.main li{
+    padding: auto;
+}
+.ahar{
+    
+    padding-left:5%;
+    width: 50vh;
+    height: 12vh;
+}
+.main ul li a button{
+    width: 4cm;
+        
+    }
+    .btn{
+        align-self:center;
+        font-family: "Roboto",sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        background-image: linear-gradient(to right,#a8bacc ,#ffce1e);
+        
+        width: 270px;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(7, 5, 19);
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-transition-duration: 0.03s ;
+        transition-duration: 0.5s ;
+        -webkit-transition-property: box-shadow,transform;
+        transition-property: box-shadow,transform;
+        box-shadow:8px 8px 8px #ffce1e; 
+        
+        }
+        .btn:hover, .btn:focus, .btn:active{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.3);
+        }
+        .btun{
+        
+        padding-top:4% ;
+        text-align: center;
+        
+        }
+        body{
+            /* background-color: #00a985; */
+            background-image: url(../Images/hero.jpg);
+            background-size: cover;
+            
+        }
