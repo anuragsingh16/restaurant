@@ -197,25 +197,28 @@
 
           .textonslider{
             padding-top: 14%;
-            padding-left:35%;
+            padding-left:30%;
             color: #ffce1e;
             position: absolute;
-            font-size: 70px;
-            font-family:'Times New Roman', Times, serif;
+            font-size: 80px;
+            font-family:'Sofia',sans-serif;
             text-align: center;
-            
+            font-family: "Sofia", sans-serif;
+            text-shadow: 3px 3px 3px #2b2c29;
+
             
           }
           .btn1{
             align-self:center;
-            font-family: "Roboto",sans-serif;
+            /* font-family: "Roboto",sans-serif; */
+            font-family:'Trirong',sans-serif;
             font-size: 22px;
             font-weight: bold;
             background-image: linear-gradient(to right,#a8bacc ,#ffce1e);
             position: absolute;
         
-            width: 192px;
-            padding: 49px;
+            width: 180px;
+            padding: 30px;
             padding-bottom: 19px;
             padding-top: 19px;
             text-align: center;
