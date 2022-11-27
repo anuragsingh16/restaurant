@@ -141,14 +141,14 @@
             /* background-color:#dcb423; */
             text-align: center;      
             padding-top: 1vh;      
-            text-shadow: 0.2vh 1vh 1vh rgb(0, 0, 0);
+            text-shadow: 0.2vh 0.2vh 0.2vh #ffce1e;
             /* border-radius: 2vh; */
             border: 1vh;
             border-style:double;
             border-top: none;
             border-left:none ;
             border-right: none;
-            
+            font-family: "Sofia",sans-serif;
 
             /* box-shadow:  1vh 1vh 1vh black; */
             margin-left: 62vh;
