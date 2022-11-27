@@ -46,7 +46,7 @@ text-align: center;
 .ahar{
 /* padding-left:65vh; */
 padding-left: 53vh;
-position: absolute;
+position:fixed;
 padding-top:9vh ;
 font-size: 8cm;
 color:rgb(255, 206, 30);
