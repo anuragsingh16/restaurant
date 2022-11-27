@@ -9,60 +9,69 @@
     height: 10vh;
     /* background: url(../Images/hero.jpg); */
     /* background-color: #ffce1e;   */
-    background-color: rgba(0, 0, 0,0.5);  
+    background-color: rgba(0, 0, 0,0.5);
     display: flex;
     align-items: center;
     justify-content:space-between;
     padding:0 1%;
+    /* box-shadow:10px 18px 100px black; */
     
     }
-.main ul{
+  .main ul{
     list-style: none;
     display: flex;
-
+  
     }
-.main ul{
-    padding:10px 30px;
+  .main ul{
+    padding:2vh 1vh;
         
     }
-.main li{
-    padding: auto;
-}
-.ahar{
+  .main li{
+    padding: 1.2vh;
+  }
+  
+  .ahar{
     
     padding-left:5%;
     width: 50vh;
     height: 12vh;
-}
-.main ul li a button{
-    width: 4cm;
+    
+  }
+  .main ul li a button{
+    width: 20vh;
         
     }
-    .btn{
+      .btn{
         align-self:center;
         font-family: "Roboto",sans-serif;
-        font-size: 16px;
+        font-size: 2vh;
         font-weight: bold;
-        background-image: linear-gradient(to right,#a8bacc ,#ffce1e);
-        
-        width: 270px;
-        padding: 15px;
+        /* background-image: linear-gradient(to right,#a8bacc ,#ffce1e); */
+        background: none;
+        color:#ffce1e;
+        width: 8vh;
+        padding: 1.5vh;
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
-        color: rgb(7, 5, 19);
-        border-radius: 15px;
+        border-color: aqua;
+        border-style: solid;
+        /* border-bottom: 0.5vh; */
+        /* border-top: none;
+        border-top:none;
+        border-left:none;
+        border-right:none; */
         cursor: pointer;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 2vh rgba(0, 0, 0, 0.1);
         -webkit-transition-duration: 0.03s ;
         transition-duration: 0.5s ;
         -webkit-transition-property: box-shadow,transform;
         transition-property: box-shadow,transform;
-        box-shadow:8px 8px 8px #ffce1e; 
+        /* box-shadow:8px 8px 8px #ffce1e;  */
         
         }
         .btn:hover, .btn:focus, .btn:active{
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 2vh rgba(0, 0, 0, 0.5);
         -webkit-transform: scale(1.1);
         transform: scale(1.3);
         }
