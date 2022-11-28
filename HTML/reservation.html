@@ -31,15 +31,15 @@
         
         <div class ="both">
         <div class="one">
-            
+            <form action="../HTML/homepage.html" method="post">
                 Name: <br>
                 <input type="text" placeholder="Type Name" class="inp"><br><br>
                 
                 Email:<br>
                 <input type="text" placeholder="Type Email" class="inp"><br><br>
                 Mobile No. <br>
-                <input type="number" class="inp" placeholder="Enter No.">
-            
+                <input type="number" class="inp" placeholder="Enter No." maxlength="10">
+            </form>
         </div>
             <div class="two">
             
@@ -71,5 +71,15 @@
             </div>
         </div>
     </div>
+    <script>
+        function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+    </script>
 </body>
 </html>
