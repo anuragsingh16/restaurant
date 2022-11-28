@@ -112,7 +112,6 @@
             /* background-color:#dcb423; */
             font-family: "Sofia",sans-serif;
             
-
             border-bottom:1vh;
             border-style:double;
             border-top: none;
@@ -130,8 +129,7 @@
            font-size: 3vh;
            width: 45vh;
            height: 30vh;
-           
-           border-style:none;
+           font-family: "Sofia",sans-serif;
            /* background-color:#dcb423; */
            position: absolute;
            /* box-shadow: 9px 9px 9px black; */
@@ -140,15 +138,15 @@
            padding-left: 5vh;
            padding-top: 2vh;
            
+           
        }
        .two{
             position: absolute;
             margin-top: 18vh;
             margin-left: 35vh;
             font-size: 3vh;
-            width: 73vh;
+            width: 79vh;
             height: 30vh;
-        
             border-style:none;
            /* background-color:#dcb423; */
            position: absolute;
@@ -156,7 +154,7 @@
            padding-left: 2vh;
            padding-top: 2vh;
            padding-right:55vh;
-           
+           font-family: "Sofia",sans-serif;
        } 
        .inp{
         width: 23vh;
@@ -170,7 +168,11 @@
         transition-duration: 0.5s;
         -webkit-transition-property: box-shadow,transform;
         transition-property: box-shadow,transform;
-    
+        border-style:solid;
+            border-top: none;
+            border-left:none ;
+            border-right: none;
+            font-family: "Sofia",sans-serif;
         }
         .inp:hover, .inp:focus, .inp:active{
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -189,6 +191,11 @@
         transition-duration: 0.5s;
         -webkit-transition-property: box-shadow,transform;
         transition-property: box-shadow,transform;
+        border-style:solid;
+        border-top: none;
+        border-left:none ;
+        border-right: none;
+        font-family: "Sofia",sans-serif;
         }
         .inp1:hover, .inp1:focus, .inp1:active{
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -211,6 +218,10 @@
             transition-duration: 0.5s;
             -webkit-transition-property: box-shadow,transform;
             transition-property: box-shadow,transform;
+            border-style:solid;
+            border-top: none;
+            border-left:none ;
+            border-right: none;
             }
             .inp2:hover, .inp2:focus, .inp2:active{
               box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -229,11 +240,12 @@
             
              /* margin-right: 3%; */
             /* box-shadow: 9px 9px 9px black; */
-            
+            font-family: "Sofia",sans-serif;
             /* text-align: center; */
             padding-left: 10vh;
-            padding-top: 19vh;
+            padding-top: 21vh;
             /* padding-right:55px; */
+            
             
             
         }
@@ -274,7 +286,7 @@
           }
             .btuns{
             
-            padding-top:57vh ;
+            padding-top:59vh ;
             text-align: center;
             padding-left: 47vh;
             position: absolute;
@@ -285,5 +297,5 @@
 
             }
             .all{
-              padding-top: 1vh;
+              padding-top: 0vh;
             }
