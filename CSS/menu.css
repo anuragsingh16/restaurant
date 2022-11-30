@@ -1,7 +1,12 @@
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .main{
@@ -17,31 +22,31 @@
     /* box-shadow:10px 18px 100px black; */
     
     }
-  .main ul{
+.main ul{
     list-style: none;
     display: flex;
-  
+
     }
-  .main ul{
+.main ul{
     padding:2vh 1vh;
         
     }
-  .main li{
+.main li{
     padding: 1.2vh;
-  }
-  
-  .ahar{
+}
+
+.ahar{
     
     padding-left:5%;
     width: 50vh;
     height: 12vh;
     
-  }
-  .main ul li a button{
+}
+.main ul li a button{
     width: 20vh;
         
     }
-      .btn{
+    .btn{
         align-self:center;
         font-family: "Roboto",sans-serif;
         font-size: 2vh;
@@ -77,13 +82,178 @@
         }
         .btun{
         
-        padding-top:4% ;
+        padding-top:3vh ;
         text-align: center;
         
         }
-        body{
-            /* background-color: #00a985; */
-            background-image: url(../Images/hero.jpg);
-            background-size: cover;
-            
-        }
+body{
+    line-height: 1.5;
+    font-family: "Sofia",sans-serif;
+    background:url(../Images/hero.jpg);
+    color: #fff;
+    background-size: cover;
+}
+.menu{
+    margin: 4rem 0;
+}
+.menu-container{
+    width: 120vh;
+    height:95vh;
+    margin: 0 auto;
+    padding: 2rem ;
+    /* background-color:aqua; */
+    background-color: rgba(69, 255, 252, 0.5);
+    border-radius: 3rem;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.menu-head{
+    padding-top:1vh;
+    text-align: center;
+}
+.menu-head h2{
+    padding-top:1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.9rem;
+    color: #000;
+    font-family: "Sofia",sans-serif;
+    
+}
+.menu-head p{
+    font-weight: 300;
+    padding: 1.8rem 0;
+}
+.menu-btns{
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+.menu-btn{
+    font-family: "Sofia",sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color:#ffce1e;
+    display: block;
+    margin: 0 1rem;
+    cursor: pointer;
+    outline: 0;
+    transition: opacity 0.4s ease-out;
+}
+.menu-btn::after{
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ff9505;
+    margin-top: 0.5rem;
+    width: 0;
+    transition: width 0.4s ease-out;
+}
+.menu-btn:hover::after{
+    width: 100%;
+}
+.menu-btn:hover{
+    opacity: 0.8;
+}
+.active-btn{
+    color: black;
+}
+.food-items{
+    margin: 2rem 0;
+}
+.food-item{
+    border-radius: 4px;
+    overflow: hidden;
+    background: rgb(37 125 139);
+    color: #000;
+    margin: 0.6rem 0;
+    box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.75);
+    display:none;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.food-img img{
+    border-radius: 4px;
+}
+.food-content{
+    padding: 1rem;
+}
+.food-name{
+    font-family: "Sofia",sans-serif;;
+    color: #ff9505;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background: #ff9505;
+}
+.food-price{
+    padding: 0.4rem 0;
+    font-weight: 600;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+.rating{
+    display: flex;
+    list-style: none;
+}
+.rating .fa-star{
+    margin-right: 0.4rem;
+    color: #44355b;
+}
+.category{
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family:"Sofia";
+}
+.category span{
+    font-weight: 500;
+}
+
+@media screen and (min-width: 600px){
+    .food-item{
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+        padding: 1rem;
+        column-gap: 1rem;
+    }
+    .food-content{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu-head p{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .menu-head p{
+        width: 50%;
+    }
+    .food-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
