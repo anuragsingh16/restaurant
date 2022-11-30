@@ -24,29 +24,29 @@
         <div class="heading">
             <h1>Reservation</h1>
         </div>
-        <div class="all">
+        <div class="all"><form action="../HTML/homepage.html" method="post" id="form"></form>
         <div class="btuns">
-            <a href="../HTML/homepage.html"><button class="btns">Submit</button></a>
+            <a href="../HTML/homepage.html"><button class="btns"id='submit'>Submit</button></a>
         </div>
         
         <div class ="both">
         <div class="one">
-            <form action="../HTML/homepage.html" method="post">
+            
                 Name: <br>
-                <input type="text" placeholder="Type Name" class="inp"><br><br>
+                <input type="text" placeholder="Type Name" class="inp" id="name"><br><br>
                 
                 Email:<br>
-                <input type="text" placeholder="Type Email" class="inp"><br><br>
+                <input type="text" placeholder="Type Email" class="inp" id="email"><br><br>
                 Mobile No. <br>
-                <input type="number" class="inp" placeholder="Enter No." maxlength="10">
-            </form>
+                <input type="number" class="inp" placeholder="Enter No." maxlength="10" id="num">
+            
         </div>
             <div class="two">
             
                     Date: <br>
-                    <input type="date" class="inp1"><br><br>
+                    <input type="date" class="inp1" id="date"><br><br>
                     Time: <br>
-                    <input type="time"class="inp1"><br><br>
+                    <input type="time"class="inp1" id="time"><br><br>
                     No. of Seats: <br>
                     <label for="Seats" >
 
@@ -65,14 +65,18 @@
             </div></div>
             <div class="message">
                 Your message: 
-                <textarea name="" class="inp2" cols="5" rows="4"></textarea>
+                <textarea name="" class="inp2" cols="5" rows="4" id="mess"></textarea>
                 
             </div>
             </div>
-        </div>
+        </div></form>
     </div>
-
-
+    <script>
+        var form = document.getElementById('form')
+        form.addEventListener('submit',function(e){
+            e.preventDefault()
+            alert("form is submitted")
+        }
     </script>
 </body>
 </html>
